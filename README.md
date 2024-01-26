@@ -1,2 +1,0 @@
-# MeetMe
-My portfolio website
