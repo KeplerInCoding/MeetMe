@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className=' bg-blue-400'>
+    <div className='h-[3000px] w-full bg-gradient-to-b from-teal-600 to-teal-950'>
       <Navbar/>
       <HeroSection/>
       <Education/>
