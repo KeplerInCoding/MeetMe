@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='w-screen'>
-      <div className='h-16 z-20 w-screen bg-slate-800/60 backdrop-blur-sm border-b border-white fixed flex place-content-evenly items-center mb-16'>
+      <div className='h-16 z-20 w-screen bg-slate-800/60 backdrop-blur-sm border-b border-white fixed flex place-content-evenly items-center'>
         <div className='flex items-center'>
           <div className=' flex-shrink-0'><img src={logo} alt="logo" width="50px" /></div>
           <div className='font-serif font-extrabold text-gray-200 text-3xl'>HREYA SHARMA</div>
