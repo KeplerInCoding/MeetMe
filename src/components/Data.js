@@ -9,7 +9,7 @@ const projects = [
   {
     projectName: "MeetMe",
     techStack: ["React and Tailwind"],
-    description: "My portfiolio site.",
+    description: "My portfiolio site. A place to showcase my work and connect with others.",
     codeLink: "https://github.com/KeplerInCoding/AntiPhobia",
     siteLink: "https://anti-phobia.vercel.app/",
     image: project1Image
