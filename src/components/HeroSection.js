@@ -1,6 +1,6 @@
 import React from 'react';
 import bg from '../images/mathew-schwartz-3SWQCLmxH1U-unsplash-removebg-preview.png';
-import me from '../images/me.png';
+import me from '../images/me1.png';
 
 const HeroSection = () => {
   const handleDownloadResume = () => {
@@ -22,8 +22,8 @@ const HeroSection = () => {
               borderRadius: 'inherit' 
             }}
           />
-          <div className='relative h-full w-full z-10 text-black flex justify-center flex-wrap items-center'>
-            <img src={me} alt="Me" className='w-[430px]'/>
+          <div className='relative md:h-[450px] h-fit w-full z-10 text-black flex justify-center flex-wrap items-center'>
+            <img src={me} alt="Me" className='w-[390px]'/>
             <div className='flex flex-col items-center'>
               <div className='text-3xl font-sans font-bold '>~~Hi ! I'm Shreya~~</div>
               <div className='text-2xl font-sans font-bold '>A Frontend Developer</div>

@@ -5,7 +5,7 @@ const Card = ({grade, name, time, place, degree}) => {
   return (
     <div className='flex gap-4'>
             <i className="fa-solid fa-paintbrush text-3xl text-gray-700 "></i>
-            <div className='bg-black/20 w-80 border border-black shadow-black shadow-lg p-4 rounded-sm'>
+            <div className='bg-black/20 w-72 border border-black shadow-black shadow-lg p-4 rounded-sm'>
                 <div className='flex place-content-between border-b font-semibold py-2 border-black items-center'>       
                     <div >{name}</div>
                     <div>{time}</div>
