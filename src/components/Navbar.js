@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className='h-16 z-20 w-screen bg-slate-800/60 backdrop-blur-sm border-b border-white fixed flex place-content-evenly items-center'>
         <div className='flex items-center'>
           <div className=' flex-shrink-0'><img src={logo} alt="logo" width="50px" /></div>
-          <div className='font-serif font-extrabold text-gray-200 text-3xl'>HREYA SHARMA</div>
+          <div className='font-serif font-extrabold text-pink-900 text-3xl'>HREYA SHARMA</div>
         </div>
         <div className='gap-4 text-2xl text-gray-200 flex-shrink-0 hidden md:flex'>
         <a href="https://www.linkedin.com/in/shreya-sharma-104278198/"><i className="fab fa-linkedin hover:text-pink-900"></i></a>

@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='h-[3000px] w-fit bg-gradient-to-r from-slate-400 via-slate-300 to-slate-500 flex flex-col items-center'>
+    <div className='h-[3000px] overflow-x-hidden w-fit bg-gradient-to-r from-yellow-100 via-rose-200 to-yellow-100 flex flex-col items-center'>
       <Navbar/>
       <HeroSection/>
       <Education/>

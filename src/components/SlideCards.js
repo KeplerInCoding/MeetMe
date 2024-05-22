@@ -5,9 +5,9 @@ import projects from './Data'; // Importing the projects array
 
 const SlideCards = () => {
   return (
-    <div className="flex m-10 p-5">
+    <div className="flex md:mx-10 mx-5 w-fit">
       {projects.map((project, index) => (
-        <div key={index} className="w-96 shrink-0 rounded overflow-hidden shadow-lg mx-2">
+        <div key={index} className="w-96 shrink-0 rounded overflow-hidden shadow-lg mx-2 bg-black/20">
           <img className="w-full" src={project.image} alt={project.projectName} />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">{project.projectName}</div>
