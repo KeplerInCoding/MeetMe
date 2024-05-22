@@ -1,7 +1,7 @@
 // data.js
 
 // Importing images
-import project1Image from '../images/topCourses.png';
+import project1Image from '../images/MeetMe.png';
 import project2Image from '../images/phobias.png';
 import project3Image from '../images/vrCare.jpeg';
 import project4Image from '../images/topCourses.png';
@@ -15,8 +15,8 @@ const projects = [
     projectName: "MeetMe",
     techStack: ["React and Tailwind"],
     description: "My portfiolio site. A place to showcase my work and connect with others.",
-    codeLink: "https://github.com/KeplerInCoding/AntiPhobia",
-    siteLink: "https://anti-phobia.vercel.app/",
+    codeLink: "https://github.com/KeplerInCoding/MeetMe",
+    siteLink: "https://meet-me-gilt.vercel.app/",
     image: project1Image
   },
 
