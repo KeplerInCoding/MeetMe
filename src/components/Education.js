@@ -11,7 +11,7 @@ const Education = () => {
         <div className=' place-self-center'><Card grade={'95%'} name={'K.V. Akkulam'} time={'2020'} place={'Thiruvananthapuram'} degree={'Class 12th (CBSE)'}/></div>
         <div className=' place-self-end'><Card grade={'97%'} name={'K.V. Uttarlai'} time={'2018'} place={'Rajasthan'} degree={'Class 10th (CBSE)'}/></div>
       </div>
-      
+      <div className='w-full h-[1px] bg-slate-400 my-5'></div>
     </div>
   );
 }
