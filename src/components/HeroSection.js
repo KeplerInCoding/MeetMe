@@ -1,8 +1,5 @@
 import React from 'react';
-// import bg from '../images/mathew-schwartz-3SWQCLmxH1U-unsplash-removebg-preview.png';
 import me from '../images/ME.jpg';
-//import css
-import './style.css'
 
 const HeroSection = () => {
 

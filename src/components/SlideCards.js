@@ -1,11 +1,10 @@
-// SlideCards.js
 
 import React from 'react';
-import projects from './Data'; // Importing the projects array
+import projects from './Data'; 
 
 const SlideCards = () => {
   return (
-    <div className="flex md:mx-10 mx-5 w-fit">
+    <div className="flex md:mx-10 mx-5 w-fit slider-container">
       {projects.map((project, index) => (
         <div key={index} className="w-96 border border-black shrink-0 rounded overflow-hidden shadow-lg mx-2 bg-black/20">
           <img className="w-full" src={project.image} alt={project.projectName} />
