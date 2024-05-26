@@ -31,6 +31,7 @@ const Skills = () => {
         <SkillCard title="Frameworks" skills={skills.frameworks} />
         <SkillCard title="Course Work" skills={skills.course} />
       </div>
+      <div className='w-full h-[1px] bg-slate-400 my-5'></div>
     </div>
   );
 };

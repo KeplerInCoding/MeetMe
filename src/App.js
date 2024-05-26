@@ -18,6 +18,7 @@ const App = () => {
       <Education/>
       <Skills/>
       <Projects/>
+      <div className=' text-center font-extrabold text-red-600 text-2xl m-20'>(WEBSITE UNDER DEVELOPMENT...)</div>
       <Certifications/>
       <Achievements/>
       <Experience/>
