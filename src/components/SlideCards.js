@@ -10,11 +10,11 @@ const SlideCards = () => {
           <div>
             <img className="w-full" src={project.image} alt={project.projectName} />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">{project.projectName}</div>
-              <p className="text-gray-700 text-sm">{project.description}</p>
+              <div className="font-bold text-2xl mb-2">{project.projectName}</div>
+              <p className="text-gray-800 text-lg">{project.description}</p>
             </div>
           </div>
-          <div className="px-6 flex flex-col justify-centre text-center text-white">
+          <div className="text-xl px-6 flex flex-col justify-centre text-center text-white">
             <div className="inline-block bg-gradient-to-l from-teal-900 via-teal-700 to-teal-900 hover:bg-gradient-to-l px-3 py-1 font-semibold mr-2 m-2">
               Tech Stack: {project.techStack.join(', ')}
             </div>

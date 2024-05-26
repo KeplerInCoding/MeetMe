@@ -1,10 +1,11 @@
 import React from 'react';
 import Card from './Card';
+import "../style.css"
 
 const Education = () => {
   return (
     <div className='pt-20  w-full flex flex-col items-center'>
-      <div className=' font-mono font-extrabold text-black text-4xl mb-10'>EDUCATION</div>
+      <div className='heading font-extrabold text-black text-5xl mb-10'>EDUCATION</div>
       
       <div className='flex md:w-8/12  flex-col gap-10 '>
         <div className=' place-self-start'><Card grade={'CGPA : 8'} name={'KIET Groups of Institutions'} time={'2021-25'} place={'Ghaziabad, Delhi NCR'} degree={'B.Tech - CSE'}/></div>
