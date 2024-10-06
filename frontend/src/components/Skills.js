@@ -2,10 +2,10 @@ import React from 'react';
 import "../style.css"
 
 const skills = {
-  languages: ['C++/C', 'Python', 'JavaScript', 'HTML', 'CSS'],
-  tools: ['VS Code', 'Canva', 'Figma', 'GitHub', 'Git Bash'],
+  languages: ['C++/C', 'JavaScript', 'HTML/CSS', 'Node,js', 'Python'],
+  tools: ['VS Code', 'Canva', 'Postman', 'GitHub', 'Git Bash'],
   frameworks: ['React.js', 'Tailwind', 'Material UI', 'Express.js'],
-  course: ['SQL', 'DBMS', 'Data Structures and Algorithms', 'OOPS']
+  course: ['SQL', 'DBMS', 'DSA', 'OOPS', 'CN']
 };
 
 const SkillCard = ({ title, skills }) => (
@@ -24,15 +24,16 @@ const SkillCard = ({ title, skills }) => (
 
 const Skills = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6">
-      <div className='heading text-black text-5xl mb-10'>SKILLS</div>
+    <div className="min-h-screen flex flex-col items-center justify-center py-20 p-6">
+      <div className='heading text-black text-5xl my-10'>SKILLS</div>
+      <div className='w-1/2 h-[2px] bg-black text-center mb-20'></div>
+
       <div className="flex flex-wrap justify-center items-center">
         <SkillCard title="Languages" skills={skills.languages} />
         <SkillCard title="Tools" skills={skills.tools} />
         <SkillCard title="Frameworks" skills={skills.frameworks} />
         <SkillCard title="Course Work" skills={skills.course} />
       </div>
-      <div className='w-full h-[1px] bg-slate-400 my-5'></div>
     </div>
   );
 };

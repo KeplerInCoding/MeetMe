@@ -7,9 +7,10 @@ import ContactMe from './components/ContactMe'
 import Footer from './components/Footer'
 import Certifications from './components/Certifications'
 import Achievements from './components/Achievements'
-import Experience from './components/Experience'
 import Skills from './components/Skills'
 import "./style.css"
+import Internships from './components/Internships'
+import Cocurricular from './components/Cocurricular'
 
 const App = () => {
   return (
@@ -21,11 +22,9 @@ const App = () => {
       <Projects/>
       <Achievements/>
       <Certifications/>
-      <Experience/>
+      <Internships/>
+      <Cocurricular/>
       <ContactMe/>
-      <Footer/>
-      <div className=' text-center font-extrabold text-red-600 text-2xl m-20'>(WEBSITE UNDER DEVELOPMENT...)</div>
-      
     </div>
   )
 }

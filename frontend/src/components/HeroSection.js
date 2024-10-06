@@ -12,14 +12,20 @@ const HeroSection = () => {
             <div className='flex flex-col items-center'>
               <div className='text-5xl md:text-5xl font-bold '>Hiii !!</div>
               <div className='text-5xl md:text-5xl font-bold '>~~I'm Shreya~~</div>
-              <div className='text-3xl font-bold '>A Frontend Developer</div>
-              <div className='text-3xl font-bold '>(CSE'25)</div>
-              <div className='flex items-center gap-4 my-7'>
-                <a href="https://drive.google.com/file/d/1FFQW3tQvE2grlT-z_NkouI3JxJmASpBl/view?usp=sharing" target="_blank" rel="noopener noreferrer"><div className='cursor-pointer bg-gradient-to-br from-gray-800 to-rose-800 hover:bg-gradient-to-br hover:to-gray-800 hover:from-rose-800 text-white text-4xl font-extrabold px-6 py-4 shadow-pink-200 shadow-xl hover:shadow-pink-200 hover:shadow-lg transform transition-transform hover:scale-110'>Download Resume</div></a>
+              <div className='text-3xl font-bold '>A MERN Stack Developer</div>
+              <div className='text-3xl font-bold pb-10'>(CSE'25)</div>
+
+
+              <a href="https://drive.google.com/file/d/1LLutdSv3L9FV7S_KPQXvGk9F7CoqkUxs/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <div
+                className="relative px-8 py-10 text-4xl font-extrabold text-black border-2 border-black hover:bg-black/40 transition-transform transform hover:bg-red-300 "
+              >
+                <span className="relative z-10" >Download Resume</span>
+                <div className="absolute inset-0  bg-gradient-to-br from-gray-500 to-rose-500 rotate-12 transform origin-center -z-10"></div>
               </div>
+              </a>
             </div>
         </div>
-        <div className='w-full h-[1px] bg-slate-400 my-5'></div>
       </div>
     </>
   );
