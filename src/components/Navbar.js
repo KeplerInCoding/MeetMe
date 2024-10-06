@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from '../images/OIG2__1_-removebg-preview.png';
 import leetcode from '../images/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png';
 import "../style.css"
 
@@ -14,8 +13,7 @@ const Navbar = () => {
     <div className='w-screen heading'>
       <div className='h-16 z-20 w-screen bg-slate-800/50 backdrop-blur-md border-b border-white fixed flex place-content-evenly items-center'>
         <div className='flex items-center'>
-          <div className=' flex-shrink-0'><img src={logo} alt="logo" width="50px" /></div>
-          <div className='font-heading font-extrabold text-black text text-4xl'>HREYA SHARMA</div>
+          <div className='content2 font-extrabold text-black text-4xl'>SHREYA SHARMA</div>
         </div>
         <div className='gap-4 text-2xl text-gray-200 flex-shrink-0 hidden md:flex'>
         <a href="https://www.linkedin.com/in/shreya-sharma-104278198/"><i className="fab fa-linkedin hover:text-pink-900"></i></a>
